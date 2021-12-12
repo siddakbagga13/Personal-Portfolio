@@ -254,7 +254,13 @@
             </div>
         </div>
     </section>
-
+    <div class='cursor' id="cursor"></div>
+    <script>var cursor = document.getElementById("cursor");
+      document.body.addEventListener("mousemove", function(c) {
+        cursor.style.left = c.clientX + "px",
+          cursor.style.top = c.clientY + "px";
+      });
+      </script>
     <!-- footer section start -->
     <footer>
         <span>Made By Siddak Bagga</span> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
