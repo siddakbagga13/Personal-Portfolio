@@ -376,13 +376,13 @@ a, a:hover, a:focus, a:active {
     width: 85%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 75%;
 }
 .skills-content .right .c::before{
-    width: 60%;
+    width: 70%;
 }
 .skills-content .right .mysql::before{
-    width: 70%;
+    width: 80%;
 }
 
 /* teams section styling */
@@ -401,7 +401,7 @@ a, a:hover, a:focus, a:active {
     background: #dc7514;
 }
 .teams .carousel .card .box{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -477,6 +477,8 @@ a, a:hover, a:focus, a:active {
 .contact .contact-content .row i{
     font-size: 25px;
     color: #dc7514;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
